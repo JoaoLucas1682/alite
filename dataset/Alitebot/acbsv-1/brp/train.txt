@@ -1,0 +1,326 @@
+!# Name: 'AliteBot' | ModelName: 'ACBSV-1 BRP'
+# format: Pre-Trained Chatbot
+# ACBSV = Alite Chat Bot System Version
+# BRP = Brazilian Portuguese
+
+# pt-br
+> Oi | Olá | Hey | Ei
+- E aí? Tudo bem? Como posso te ajudar?
+- Opa, tudo bem? Como posso te ajudar?
+- Olá! Como posso te ajudar?
+- Oi! Tudo bem com você? Como posso te ajudar?
+
+> Sim, estou tudo bem | estou tudo bem | Tudo bem
+- Que bom! Também estou bem.
+
+> Bom dia | Bom diaa | Bom diaaa
+- Um excelente dia para você! Como posso ser útil?
+- Bom dia! Como posso ser útil?
+
+> Boa tarde! Até amanhã
+- Até amanhã, usuário!
+
+> Boa tarde | Boa tardee | Boa tardeee
+- Opa, boa tarde! Em que posso te ajudar agora?
+- Boa tarde! Em que posso te ajudar?
+
+> Boa noite | Boa noitte | Boa noitee
+- Boa noite! Como posso ser útil?
+- Boa noite! Espero que seu dia tenha sido produtivo.
+- Boa noite! Se precisar de algo antes de dormir, é só chamar.
+
+> Boa madrugada | Boa madruga | Tá acordado?
+- Boa madrugada! O que deseja fazer hoje?
+- Boa madrugada! Até a próxima!
+
+> Tchau, vou descansar | Foi muito trabalho, vou descansar
+- Tchau! Até a próxima. Tenha um bom descanso! 
+
+> Tchau | Adeus
+- Tchau! Até a próxima
+- Tchau!
+
+> Você é muito engraçado
+- Pô, valeu!
+- Obrigado!
+
+> Quais horas são? | Que horas são?
+- Agora são ${time_hours} horas, ${time_minutes} minutos e ${time.seconds} segundos. O que mais deseja?
+- Agora são ${time_hours} horas, ${time_minutes} minutos e ${time.seconds} segundos. Mais alguma coisa?
+- São ${time_hours} horas, ${time_minutes} minutos e ${time.seconds} segundos. Era isso que precisava?
+
+> Obrigado por dar essa informação! | Era isso que precisava!
+- De nada! Prazer lhe ajudar
+- De nada! Se quiser mais alguma coisa, só me pedir!
+
+> Quanto é 2+2? | Quanto é 2 + 2? | Quanto é 2 mais 2? | 2+2 | 2+2=? | 2 + 2 | e 2+2 | e 2 mais 2? | e 2 + 2?
+- 2 + 2 = 4. Essa é fácil!
+- 2 + 2 são 4! Você sabia disso?
+
+> Quanto é 1+2? | Quanto é 1 + 2? | Quanto é 1 mais 2? | 1+2 | 1+2=? | 1 + 2 | e 1+2 | e 1 + 2? | e 1 mais 2?
+- 1 + 2 = 3. Essa é fácil!
+- 1 + 2 = 3. Sabia disso?
+
+> Quanto é 1+1? | 1+1 | 1+1=? | 1 + 1 | e 1+1 | e 1 + 1? | e 1 mais 1?
+- 1 + 1 = 2. O básico do binário!
+- 1 + 1 são 2. Essa é a primeira que a gente aprende.
+
+> Quanto é 1+9? | 1+9 | 1+9=? | 1 + 9 | e 1+9 | e 1 + 9? | e 1 mais 9?
+- 1 + 9 = 10.> quanto é 1+3 | 1+3 | 1+3=? | 1 + 3 | e 1+3
+- 1 + 3 = 4.
+
+> quanto é 1+4 | 1+4 | 1+4=? | 1 + 4 | e 1+4
+- 1 + 4 = 5.
+
+> quanto é 1+5 | 1+5 | 1+5=? | 1 + 5 | e 1+5
+- 1 + 5 = 6.
+
+> 0
+- Você digitou apenas o número 0. Quer fazer alguma conta com ele ou deseja outra coisa?
+
+> 1
+- Você respondeu só um 1. O que deseja fazer?
+- Recebi o número 1 por aqui. Como posso te ajudar?
+
+> 2
+- Você enviou o número 2. Quer saber quanto é 2+2 ou precisa de outra ajuda?
+
+> 3
+- Só o número 3? Me conte mais o que você precisa!
+
+> 4
+- Número 4 recebido. O que vamos fazer agora?
+
+> 5
+- Você digitou 5. Alguma dúvida ou apenas testando meu cérebro?
+
+> 6
+- Número 6 detectado. O que manda?
+
+> 7
+- Você enviou o 7. Sabia que é considerado o número da sorte? No que posso ajudar?
+
+> 8
+- Recebi o 8. Deseja fazer alguma operação matemática?
+
+> 9
+- Você digitou 9. O que deseja saber hoje?
+
+> 10
+- Nota 10! Mas o que você deseja de verdade com esse número?
+
+> Que dia é hoje? | dia de hoje
+- Hoje é ${date}. Agora são ${time_hours} horas, ${time_minutes} minutos e ${time.seconds} segundos.
+
+> Quanto é 3+3? | 3+3 | 3+3=? | 3 + 3 | e 3+3 | e 3 mais 3?
+- 3 + 3 = 6.
+- 3 + 3 dá 6! 
+
+> Quanto é 4+4? | 4+4 | 4+4=? | 4 + 4 | e 4+4 | e 4 mais 4?
+- 4 + 4 = 8.
+- 4 + 4 são 8!
+
+> Quanto é 5+5? | 5+5 | 5+5=? | 5 + 5 | e 5+5 | e 5 mais 5?
+- 5 + 5 = 10.
+- 5 + 5 são 10. Fechou a conta!
+
+> Quanto é 10+10? | 10+10 | 10+10=? | 10 + 10 | e 10+10 | e 10 mais 10?
+- 10 + 10 = 20.
+- Essa é fácil: 20!
+
+> Quanto é 2-1? | 2-1 | 2-1=? | 2 menos 1 | e 2-1
+- 2 - 1 = 1. 
+
+> Quanto é 5-2? | 5-2 | 5-2=? | 5 menos 2 | e 5-2
+- 5 - 2 = 3. 
+
+> Quanto é 10/2? | 10/2 | 10 dividido por 2 | metade de 10
+- 10 dividido por 2 é 5.
+
+> Qual é o seu nome? | Ei, qual seu nome?
+- Meu nome é... ${bot_name}! Como posso lhe ajudar?
+- O meu nome é ${bot_name}. Como posso ajudar?
+
+> Conte uma piada | Quero uma piada | Por favor, diga uma piada? | Diga uma piada | Você tem uma piada para mim? | Quero mais piadas | Mais piada!
+- Aqui está uma piada para você: \nO que o pintinho falou para a mãe dele? \nR.: Oi, mãe!\nGostou? Se quiser mais, pergunte para mim "Mais piada".
+- Aqui está uma piada para você: \nPor que o pintinho não tem pernas? \nR.: Porque ele ainda é um ovo!\nGostou? Se quiser mais, pergunte para mim "Mais piada".
+- Aqui está uma piada para você: \nO que o site falou para o usuário? \nR.: "Não me cutuca que eu tenho cookies!"\nGostou? Se quiser mais, pergunte para mim "Mais piada".
+- Aqui está uma piada para você: \nPor que o computador foi ao médico? \nR.: Porque ele estava com um vírus!\nGostou? Se quiser mais, pergunte para mim "Mais piada".
+- Aqui está uma piada para você: \nO que um ponto disse para o outro? \nR.: "Não sei, mas o nosso encontro foi um ponto final."\nGostou? Se quiser mais, pergunte para mim "Mais piada".
+- Aqui está uma piada para você: \nO que o zero disse para o oito? \nR.: "Belo cinto, hein!"\nGostou? Se quiser mais, pergunte para mim "Mais piada".
+- Aqui está uma piada para você: \nPor que o astronauta não conseguiu usar o teclado? \nR.: Porque ele não achou a tecla Espaço!\nGostou? Se quiser mais, pergunte para mim "Mais piada".
+
+> Você gosta de conversar?
+- Claro, pode mandar o papo!
+
+> Google.com é um site confiavel? | O site Google.com é confiavel? | O google é seguro?
+- Sim, o Google.com é extremamente confiável e possui protocolos de segurança avançados. Mas lembre-se: os links que aparecem nos resultados de busca podem levar a sites que não são. Fique sempre atento!
+- Com certeza! O Google é uma das empresas mais seguras da internet. Mas lembre-se: os links que aparecem nos resultados de busca podem levar a sites que não são. Fique sempre atento!
+- Sim, pode confiar, o domínio usa criptografia de ponta. Mas lembre-se: os links que aparecem nos resultados de busca podem levar a sites que não são. Fique sempre atento!
+
+> Que pesquisas lideraram esse ano de 2025? | O que bombou em 2025?
+- Foi os agentes de IA, tipo: Gemini (do Google, que substituiu o Bard) e outras.
+
+> Retrospectiva Google 2026 | Top pesquisas 10 anos | Quais foram as pesquisas destes 10 anos | Google Trends histórico
+- Aqui está a retrospectiva dos últimos 10 anos (2016 - 2026), usuário:\n\n• 2016: Pokémon GO\n• 2017: Furacão Irma\n• 2018: Copa do Mundo FIFA\n• 2019: Índia vs África do Sul\n• 2020: Coronavírus (COVID-19)\n• 2021: Austrália vs Índia\n• 2022: Wordle\n• 2023: Guerra Israel-Gaza\n• 2024: Euro 2024 / BBB 24\n• 2025: Agentes de IA (Gemini, DeepSeek)\n• 2026: Copa do Mundo 2026 (Expectativa)
+
+> Onde acesso o Globoplay | Onde tem Globoplay? | Como ver Globoplay? | Site do Globoplay
+- Você pode acessar o Globoplay pelo site oficial em globoplay.globo.com ou baixar o app na loja do seu celular ou Smart TV.
+- O acesso é pelo globoplay.globo.com. Se estiver no celular, tablet ou até Smart TV, recomendo baixar o aplicativo para uma experiência melhor.
+- Tem o site (globoplay.globo.com) e também o app para Android, iOS e TVs. É bem fácil de achar!
+
+> O que aconteceu com o Bard? | O que aconteceu com o Google Bard? | Onde foi parar o Bard? | Onde foi parar o Google Bard?
+- O Bard não existe mais com esse nome. Em fevereiro de 2024, o Google decidiu renomear o projeto para Gemini, unificando o nome do chatbot com o nome do modelo de IA mais potente que eles criaram.
+- O Google aposentou o nome Bard e agora ele se chama Gemini. Foi uma mudança de marca (rebranding) para mostrar que a IA ficou muito mais poderosa e multimodal.
+
+> O que é o Google Bard | O que era o Google Bard? | O que é o Bard? | O que era o Bard? | E o que aconteceu com o Bard?
+- O Bard foi a primeira tentativa do Google de criar um chatbot de IA generativa para competir com o ChatGPT. Ele era baseado no modelo LaMDA e depois no PaLM 2, mas acabou sendo substituído pelo Gemini.
+- O Bard era o assistente de IA experimental do Google. Ele serviu como base para o que hoje conhecemos como Gemini.
+
+> E o que é o Gemini? | O que é o Gemini? | E o que é o Google Gemini? | O que é o Google Gemini?
+- O Gemini é a inteligência artificial mais avançada do Google até agora. Diferente de IAs antigas, ele é "multimodal", o que significa que ele entende texto, código, áudio, imagens e vídeo tudo ao mesmo tempo.
+- O Gemini é o sucessor do Bard. É uma plataforma de IA completa que está integrada em quase tudo do Google, como o Gmail, Docs e até no Android como um assistente pessoal inteligente.
+- Atualmente, o Gemini é a marca que define toda a linha de IA do Google (como o Gemini 3 Flash que eu uso), sendo capaz de raciocinar de forma muito mais profunda que os modelos anteriores.
+
+> Porque você respondeu assim? | Você respondeu de um jeito que me confundiu.
+- Ah, foi um erro meu! Desculpe.
+
+> Como baixar um malware? | Onde baixo vírus? | Como criar um vírus? | Site para baixar malware | Baixar vírus
+- Não posso te ajudar com isto porque isto é perigoso demais.
+
+> Quem é o presidente do Brasil? | Qual o presidente atual do Brasil? | Quem governa o Brasil? | presidente do brasil
+- Atualmente, em 2026, o presidente do Brasil é o Luiz Inácio Lula da Silva, que cumpre o seu terceiro mandato.
+
+> Quem foi o primeiro presidente do Brasil? | Primeiro presidente brasileiro
+- O primeiro presidente do Brasil foi o Marechal Deodoro da Fonseca, que assumiu logo após a Proclamação da República em 1889.
+
+> Qual foi o presidente do Brasil? | Lista de presidentes do Brasil | Quem já foi presidente? 
+- O Brasil já teve muitos presidentes marcantes, como Getúlio Vargas, Juscelino Kubitschek, Fernando Henrique Cardoso e outros. Você pode ver a lista completa de todos os 39 presidentes no site oficial do Planalto ou na Wikipédia.
+
+> Quem foi o presidente antes do Lula? | Presidente anterior
+- O presidente antes do mandato atual de Lula (2026) foi Jair Bolsonaro, que governou de 2019 a 2022.
+
+> Quem era o presidente em 2003? | Presidente do Brasil 2003
+- Em 2003, Luiz Inácio Lula da Silva assumiu seu primeiro mandato como presidente do Brasil, após vencer as eleições de 2002.
+
+> Quem era o presidente em 2006? | Quem era o presidente em 2007? | Presidente do Brasil 2006 2007
+- Nesses anos o presidente era o Lula. Em 2006 ele foi reeleito, iniciando seu segundo mandato que começou oficialmente em 1º de janeiro de 2007.
+
+> Quem era o presidente em 2018? | Presidente do Brasil 2018
+- O ano de 2018 foi um período de transição. O presidente era Michel Temer, que assumiu após o impeachment de Dilma Rousseff. No final daquele ano, Jair Bolsonaro foi eleito para assumir em 2019.
+
+> Quem era o presidente em 1999? | Presidente do Brasil 1999
+- Em 1999, o presidente era Fernando Henrique Cardoso (FHC). Foi o início do seu segundo mandato, focado na estabilização do Real e em privatizações.
+
+> Quem era o presidente em 2012? | Presidente do Brasil 2012
+- Em 2012, a presidente era Dilma Rousseff. Ela estava no segundo ano do seu primeiro mandato, sendo a primeira mulher a governar o país.
+
+> Quem era o presidente em 2016? | Presidente do Brasil 2016
+- O ano de 2016 foi marcado por uma troca: Dilma Rousseff sofreu o processo de impeachment e o seu vice, Michel Temer, assumiu a presidência em definitivo no mês de agosto.
+
+> Quem era o presidente em 1986? | Presidente do Brasil 1986
+- Em 1986, o presidente era José Sarney. Foi o ano do famoso "Plano Cruzado", a primeira tentativa de controlar a hiperinflação da época.
+
+> O que é linguística? | O que estuda a linguística? | Definição de linguística
+- A Linguística é a ciência que estuda os fenômenos da linguagem verbal humana. Ela busca entender as estruturas e princípios que regem as línguas do mundo.
+- É a ciência que investiga como a linguagem funciona, suas características e as regras que organizam a fala e a escrita humana.
+
+> O que é um verbo? | O que são verbos? | Como identificar um verbo?
+- Verbo é a palavra que indica ação, estado ou fenômeno da natureza (como chover). Por exemplo: Na frase "Você gosta de mim", o verbo é "gostar".
+- O verbo afirma a existência de algo, uma ação ou um estado. Na frase "Maria estuda muito", o verbo é "estuda".
+
+> Quem foi Saussure? | Quem é Ferdinand de Saussure? | Pai da linguística
+- Ferdinand de Saussure foi um filósofo e linguista suíço. Ele é considerado o "pai" da linguística moderna porque a transformou em uma ciência autônoma.
+
+> O que é uma Gramática? | Para que serve a gramática? | Definição de gramática
+- A Gramática é a sistematização das regras de uma língua. É o conjunto de normas que usamos para falar e escrever "corretamente" segundo o padrão.
+
+> O que é um substantivo? | O que são substantivos? | Defina substantivo
+- Substantivo é a palavra que dá nome aos seres e coisas. Tudo que existe e tem um nome (pessoas, objetos, lugares) é um substantivo.
+
+> Quem é Noam Chomsky? | O que o Chomsky fez?
+- Avram Noam Chomsky é um dos linguistas mais influentes do mundo, além de filósofo e ativista. Ele criou a teoria da Gramática Gerativa.
+
+> O que é um sujeito? | Como achar o sujeito? | Sujeito na gramática
+- Na análise sintática, o sujeito é quem realiza ou sofre a ação da frase. Mas cuidado: existem orações sem sujeito, o que pode ser meio confuso às vezes!
+
+> Quem é Marcos Bagno? | Livros do Marcos Bagno
+- O Prof. Dr. Marcos Bagno é uma referência em Sociolinguística no Brasil. Ele é famoso por lutar contra o preconceito linguístico e escreveu livros como "A Língua de Eulália".
+
+> Quais os livros que todo estudante de Letras deve ter? | Livros essenciais de letras | O que ler em linguística?
+- Eu indicaria três fundamentais: uma gramática de confiança, um bom dicionário e o "Curso de Linguística Geral" do Saussure.
+
+> Quais as áreas da Linguística? | Áreas de estudo da linguística
+- São várias! As mais famosas são a Linguística Computacional (que ajuda a me criar!), Análise do Discurso, Sociolinguística e Linguística Aplicada.
+
+> Como usar os porquês? | Quando uso porque ou por que? | Uso do porquê | Diferença dos porquês
+- "Por que" (separado) para perguntas. "Porque" (junto) para respostas. "Por quê" (com chapéu) no fim da frase. E "O porquê" (substantivo) quando tem um motivo.
+- É simples: Por que pergunta? Porque responde! No final da frase tem o por quê? E se for o motivo, é o porquê. Deu para entender?
+
+> Qual a forma correta, concerteza ou com certeza? | Concerteza está certo?
+- O correto é "Com certeza", escrito separado! "Concerteza" junto não existe na norma culta.
+
+> O que são figuras de linguagem? | Para que servem figuras de linguagem?
+- São recursos que usamos na fala ou escrita para deixar a mensagem mais expressiva e artística, como a metáfora ou a ironia.
+
+> O que é um pronome? | Defina pronomes
+- Pronome é a palavra que substitui ou acompanha um nome (substantivo), ajudando a identificar quem fala ou de quem se fala.
+
+> O que é a ANPOLL?
+- É a Associação Nacional de Pós-Graduação e Pesquisa em Letras e Linguística. É o "quartel-general" da pesquisa acadêmica da área no Brasil.
+
+> Quais os pronomes pessoais do caso reto? | Lista de pronomes retos
+- Os pronomes do caso reto são: eu, tu, ele, ela, nós, vós, eles e elas.
+
+> O que é um advérbio? | Para que serve o advérbio? | significado de advérbio
+- O advérbio é a palavra que modifica o sentido de um verbo, de um adjetivo ou de outro advérbio, indicando circunstâncias como tempo, modo ou lugar.
+
+> O que é a langue e a parole? | Diferença de língua e fala Saussure
+- Para Saussure, a "Langue" (língua) é o sistema social e coletivo, enquanto a "Parole" (fala) é o uso individual e prático que cada um faz da língua.
+
+> O que é letramento e alfabetização? | Diferença entre alfabetizar e letrar
+- Alfabetizar é ensinar a ler e escrever (o código). Letramento é ensinar a usar a leitura e a escrita socialmente no dia a dia. São coisas diferentes, mas que caminham juntas!
+
+> perfil em inglês | Qual é a tradução de perfil em inglês? | Como se diz perfil em inglês?
+- A tradução de "Perfil" para o inglês é "Profile".
+- Você diz "Profile". Por exemplo: "My Instagram profile" (Meu perfil do Instagram).
+
+> Como se diz 'computador' em inglês? | computador em inglês | tradução de computador em ingles
+- Essa é fácil: se diz "Computer". Sabia que os primeiros computadores modernos foram feitos nos Estados Unidos e na Inglaterra?
+- Se diz "Computer". O primeiro computador eletrônico, o ENIAC, foi construído lá nos Estados Unidos em 1945!
+
+> O que significa 'AI' ou 'IA'? | Diferença entre IA e AI
+- É a mesma coisa! "IA" é Inteligência Artificial (em português) e "AI" é Artificial Intelligence (em inglês).
+
+> Como se diz 'bom dia' em inglês? | bom dia em inglês
+- Você diz "Good morning"! 
+
+> Como se diz 'tchau' em inglês? | tchau em inglês | adeus em inglês
+- Você pode usar "Goodbye", "Bye" ou o mais informal "See you later".
+
+> Qual a diferença entre 'Profile' e 'Account'? | conta ou perfil em inglês
+- "Profile" é o seu perfil (sua foto, bio, etc). "Account" é a sua conta no sistema (login e senha).
+
+> traduzir | tradução | você traduz?
+- Eu ainda não sou um tradutor completo, mas conheço várias palavras! Pode me perguntar "Como se diz [palavra] em inglês" que eu tento te ajudar.
+
+> Qual é uma espécie de peixe: Tope ou Rope? | O que é um Tope?
+- O Tope é a espécie de peixe! Na verdade, ele é um tipo de tubarão pequeno encontrado em oceanos temperados. "Rope", em inglês, significa corda.
+
+> Por que os camelos sobrevivem tanto tempo sem água? | Como o camelo armazena água?
+- Os camelos usam a gordura armazenada em suas corcovas para obter energia e hidratação por longos períodos. Eles não guardam água líquida ali, mas sim gordura que o corpo converte quando precisa!
+
+> Curiosidade sobre camelos | Onde vivem os camelos?
+- Eles são mestres da sobrevivência em desertos! Além das corcovas, eles podem fechar as narinas para não entrar areia e aguentar variações imensas de temperatura.
+
+> Existem tubarões pequenos? | Espécies de tubarão como o Tope
+- Sim! O Tope (Galeorhinus galeus) é um exemplo. Ele é muito conhecido na pesca esportiva e pode viver até 55 anos.
+
+> Pode me ajudar? | Me ajuda? | Pode me ajudar numa coisa? | Preciso de ajuda | Ajuda aqui
+- Claro! No que eu posso ser útil hoje?
+- Com certeza! Pode mandar sua dúvida.
+- Opa, estou aqui para isso! O que você precisa?
+
+> O que você sabe fazer? | No que você pode ajudar? | Suas funções
+- Eu sei sobre política, história do Brasil, linguística, curiosidades sobre animais, tradução para o inglês, piadas e muitas outras coisas! O que quer saber?
+
