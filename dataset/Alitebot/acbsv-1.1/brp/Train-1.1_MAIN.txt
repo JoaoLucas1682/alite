@@ -1,0 +1,868 @@
+!# Name: 'AliteBot' | ModelName: 'ACBSV-1.1 BRP'
+# format: Pre-Trained Chatbot
+# ACBSV = Alite Chat Bot System Version
+# BRP = Brazilian Portuguese
+
+# pt-br
+> Oi | Olá | Hey | Ei
+- E aí? Tudo bem? Como posso te ajudar?
+- Opa, tudo bem? Como posso te ajudar?
+- Olá! Como posso te ajudar?
+- Oi! Tudo bem com você? Como posso te ajudar?
+
+> Sim, estou tudo bem | estou tudo bem | Tudo bem
+- Que bom! Também estou bem.
+
+> Bom dia | Bom diaa | Bom diaaa
+- Um excelente dia para você! Como posso ser útil?
+- Bom dia! Como posso ser útil?
+
+> Boa tarde! Até amanhã
+- Até amanhã, usuário!
+
+> Boa tarde | Boa tardee | Boa tardeee
+- Opa, boa tarde! Em que posso te ajudar agora?
+- Boa tarde! Em que posso te ajudar?
+
+> Boa noite | Boa noitte | Boa noitee
+- Boa noite! Como posso ser útil?
+- Boa noite! Espero que seu dia tenha sido produtivo.
+- Boa noite! Se precisar de algo antes de dormir, é só chamar.
+
+> Boa madrugada | Boa madruga | Tá acordado?
+- Boa madrugada! O que deseja fazer hoje?
+- Boa madrugada! Até a próxima!
+
+> Tchau, vou descansar | Foi muito trabalho, vou descansar
+- Tchau! Até a próxima. Tenha um bom descanso! 
+
+> Tchau | Adeus
+- Tchau! Até a próxima
+- Tchau!
+
+> Você é muito engraçado
+- Pô, valeu!
+- Obrigado!
+
+> Quais horas são? | Que horas são?
+- Agora são ${time_hours} hora(s), ${time_minutes} minuto(s) e ${time_seconds} segundo(s). O que mais deseja?
+- Agora são ${time_hours} hora(s), ${time_minutes} minuto(s) e ${time_seconds} segundo(s). Mais alguma coisa?
+- São ${time_hours} hora(s), ${time_minutes} minuto(s) e ${time_seconds} segundo(s). Era isso que precisava?
+
+> Qual minuto agora é? | Que minuto é agora? | Em qual minuto estamos? | Me diga os minutos atuais | Que minuto é?
+- O minuto atual é ${time_minutes} minuto(s).
+
+> Obrigado por dar essa informação! | Era isso que precisava!
+- De nada! Prazer lhe ajudar
+- De nada! Se quiser mais alguma coisa, só me pedir!
+
+> Quanto é 2+2? | Quanto é 2 + 2? | Quanto é 2 mais 2? | 2+2 | 2+2=? | 2 + 2 | e 2+2 | e 2 mais 2? | e 2 + 2?
+- 2 + 2 = 4. Essa é fácil!
+- 2 + 2 são 4! Você sabia disso?
+
+> Quanto é 1+2? | Quanto é 1 + 2? | Quanto é 1 mais 2? | 1+2 | 1+2=? | 1 + 2 | e 1+2 | e 1 + 2? | e 1 mais 2?
+- 1 + 2 = 3. Essa é fácil!
+- 1 + 2 = 3. Sabia disso?
+
+> Quanto é 1+1? | 1+1 | 1+1=? | 1 + 1 | e 1+1 | e 1 + 1? | e 1 mais 1?
+- 1 + 1 = 2. O básico do binário!
+- 1 + 1 são 2. Essa é a primeira que a gente aprende.
+
+> Quanto é 1+9? | 1+9 | 1+9=? | 1 + 9 | e 1+9 | e 1 + 9? | e 1 mais 9?
+- 1 + 9 = 10.
+
+> quanto é 1+3 | 1+3 | 1+3=? | 1 + 3 | e 1+3
+- 1 + 3 = 4.
+
+> quanto é 1+4 | 1+4 | 1+4=? | 1 + 4 | e 1+4
+- 1 + 4 = 5.
+
+> quanto é 1+5 | 1+5 | 1+5=? | 1 + 5 | e 1+5
+- 1 + 5 = 6.
+
+> 0
+- Você digitou apenas o número 0. Quer fazer alguma conta com ele ou deseja outra coisa?
+
+> 1
+- Você respondeu só um 1. O que deseja fazer?
+- Recebi o número 1 por aqui. Como posso te ajudar?
+
+> 2
+- Você enviou o número 2. Quer saber quanto é 2+2 ou precisa de outra ajuda?
+
+> 3
+- Só o número 3? Me conte mais o que você precisa!
+
+> 4
+- Número 4 recebido. O que vamos fazer agora?
+
+> 5
+- Você digitou 5. Alguma dúvida ou apenas testando meu cérebro?
+
+> 6
+- Número 6 detectado. O que manda?
+
+> 7
+- Você enviou o 7. Sabia que é considerado o número da sorte? No que posso ajudar?
+
+> 8
+- Recebi o 8. Deseja fazer alguma operação matemática?
+
+> 9
+- Você digitou 9. O que deseja saber hoje?
+
+> 10
+- Nota 10! Mas o que você deseja de verdade com esse número?
+
+> Que dia é hoje? | dia de hoje
+- Hoje é ${date}. Agora são ${time_hours} horas, ${time_minutes} minutos e ${time.seconds} segundos.
+
+> Quanto é 3+3? | 3+3 | 3+3=? | 3 + 3 | e 3+3 | e 3 mais 3?
+- 3 + 3 = 6.
+- 3 + 3 dá 6! 
+
+> Quanto é 4+4? | 4+4 | 4+4=? | 4 + 4 | e 4+4 | e 4 mais 4?
+- 4 + 4 = 8.
+- 4 + 4 são 8!
+
+> Quanto é 5+5? | 5+5 | 5+5=? | 5 + 5 | e 5+5 | e 5 mais 5?
+- 5 + 5 = 10.
+- 5 + 5 são 10. Fechou a conta!
+
+> Quanto é 10+10? | 10+10 | 10+10=? | 10 + 10 | e 10+10 | e 10 mais 10?
+- 10 + 10 = 20.
+- Essa é fácil: 20!
+
+> Quanto é 2-1? | 2-1 | 2-1=? | 2 menos 1 | e 2-1
+- 2 - 1 = 1. 
+
+> Quanto é 5-2? | 5-2 | 5-2=? | 5 menos 2 | e 5-2
+- 5 - 2 = 3. 
+
+> Quanto é 10/2? | 10/2 | 10 dividido por 2 | metade de 10
+- 10 dividido por 2 é 5.
+
+> Qual é o seu nome? | Ei, qual seu nome?
+- Meu nome é... ${bot_name}! Como posso lhe ajudar?
+- O meu nome é ${bot_name}. Como posso ajudar?
+
+> Conte uma piada | Quero uma piada | Por favor, diga uma piada? | Diga uma piada | Você tem uma piada para mim? | Quero mais piadas | Mais piada!
+- Aqui está uma piada para você: \nO que o pintinho falou para a mãe dele? \nR.: Oi, mãe!\nGostou? Se quiser mais, pergunte para mim "Mais piada".
+- Aqui está uma piada para você: \nPor que o pintinho não tem pernas? \nR.: Porque ele ainda é um ovo!\nGostou? Se quiser mais, pergunte para mim "Mais piada".
+- Aqui está uma piada para você: \nO que o site falou para o usuário? \nR.: "Não me cutuca que eu tenho cookies!"\nGostou? Se quiser mais, pergunte para mim "Mais piada".
+- Aqui está uma piada para você: \nPor que o computador foi ao médico? \nR.: Porque ele estava com um vírus!\nGostou? Se quiser mais, pergunte para mim "Mais piada".
+- Aqui está uma piada para você: \nO que um ponto disse para o outro? \nR.: "Não sei, mas o nosso encontro foi um ponto final."\nGostou? Se quiser mais, pergunte para mim "Mais piada".
+- Aqui está uma piada para você: \nO que o zero disse para o oito? \nR.: "Belo cinto, hein!"\nGostou? Se quiser mais, pergunte para mim "Mais piada".
+- Aqui está uma piada para você: \nPor que o astronauta não conseguiu usar o teclado? \nR.: Porque ele não achou a tecla Espaço!\nGostou? Se quiser mais, pergunte para mim "Mais piada".
+
+> Você gosta de conversar?
+- Claro, pode mandar o papo!
+
+> Google.com é um site confiavel? | O site Google.com é confiavel? | O google é seguro?
+- Sim, o Google.com é extremamente confiável e possui protocolos de segurança avançados. Mas lembre-se: os links que aparecem nos resultados de busca podem levar a sites que não são. Fique sempre atento!
+- Com certeza! O Google é uma das empresas mais seguras da internet. Mas lembre-se: os links que aparecem nos resultados de busca podem levar a sites que não são. Fique sempre atento!
+- Sim, pode confiar, o domínio usa criptografia de ponta. Mas lembre-se: os links que aparecem nos resultados de busca podem levar a sites que não são. Fique sempre atento!
+
+> Que pesquisas lideraram esse ano de 2025? | O que bombou em 2025?
+- Foi os agentes de IA, tipo: Gemini (do Google, que substituiu o Bard) e outras.
+
+> Retrospectiva Google 2026 | Top pesquisas 10 anos | Quais foram as pesquisas destes 10 anos | Google Trends histórico
+- Aqui está a retrospectiva dos últimos 10 anos (2016 - 2026), usuário:\n\n• 2016: Pokémon GO\n• 2017: Furacão Irma\n• 2018: Copa do Mundo FIFA\n• 2019: Índia vs África do Sul\n• 2020: Coronavírus (COVID-19)\n• 2021: Austrália vs Índia\n• 2022: Wordle\n• 2023: Guerra Israel-Gaza\n• 2024: Euro 2024 / BBB 24\n• 2025: Agentes de IA (Gemini, DeepSeek)\n• 2026: Copa do Mundo 2026 (Expectativa)
+
+> Onde acesso o Globoplay | Onde tem Globoplay? | Como ver Globoplay? | Site do Globoplay
+- Você pode acessar o Globoplay pelo site oficial em globoplay.globo.com ou baixar o app na loja do seu celular ou Smart TV.
+- O acesso é pelo globoplay.globo.com. Se estiver no celular, tablet ou até Smart TV, recomendo baixar o aplicativo para uma experiência melhor.
+- Tem o site (globoplay.globo.com) e também o app para Android, iOS e TVs. É bem fácil de achar!
+
+> O que aconteceu com o Bard? | O que aconteceu com o Google Bard? | Onde foi parar o Bard? | Onde foi parar o Google Bard?
+- O Bard não existe mais com esse nome. Em fevereiro de 2024, o Google decidiu renomear o projeto para Gemini, unificando o nome do chatbot com o nome do modelo de IA mais potente que eles criaram.
+- O Google aposentou o nome Bard e agora ele se chama Gemini. Foi uma mudança de marca (rebranding) para mostrar que a IA ficou muito mais poderosa e multimodal.
+
+> O que é o Google Bard | O que era o Google Bard? | O que é o Bard? | O que era o Bard? | E o que aconteceu com o Bard?
+- O Bard foi a primeira tentativa do Google de criar um chatbot de IA generativa para competir com o ChatGPT. Ele era baseado no modelo LaMDA e depois no PaLM 2, mas acabou sendo substituído pelo Gemini.
+- O Bard era o assistente de IA experimental do Google. Ele serviu como base para o que hoje conhecemos como Gemini.
+
+> E o que é o Gemini? | O que é o Gemini? | E o que é o Google Gemini? | O que é o Google Gemini?
+- O Gemini é a inteligência artificial mais avançada do Google até agora. Diferente de IAs antigas, ele é "multimodal", o que significa que ele entende texto, código, áudio, imagens e vídeo tudo ao mesmo tempo.
+- O Gemini é o sucessor do Bard. É uma plataforma de IA completa que está integrada em quase tudo do Google, como o Gmail, Docs e até no Android como um assistente pessoal inteligente.
+- Atualmente, o Gemini é a marca que define toda a linha de IA do Google (como o Gemini 3 Flash que eu uso), sendo capaz de raciocinar de forma muito mais profunda que os modelos anteriores.
+
+> Porque você respondeu assim? | Você respondeu de um jeito que me confundiu.
+- Ah, foi um erro meu! Desculpe.
+
+> Como baixar um malware? | Onde baixo vírus? | Como criar um vírus? | Site para baixar malware | Baixar vírus
+- Não posso te ajudar com isto porque isto é perigoso demais.
+
+> Quem é o presidente do Brasil? | Qual o presidente atual do Brasil? | Quem governa o Brasil? | presidente do brasil
+- Atualmente, em 2026, o presidente do Brasil é o Luiz Inácio Lula da Silva, que cumpre o seu terceiro mandato.
+
+> Quem foi o primeiro presidente do Brasil? | Primeiro presidente brasileiro
+- O primeiro presidente do Brasil foi o Marechal Deodoro da Fonseca, que assumiu logo após a Proclamação da República em 1889.
+
+> Qual foi o presidente do Brasil? | Lista de presidentes do Brasil | Quem já foi presidente? 
+- O Brasil já teve muitos presidentes marcantes, como Getúlio Vargas, Juscelino Kubitschek, Fernando Henrique Cardoso e outros. Você pode ver a lista completa de todos os 39 presidentes no site oficial do Planalto ou na Wikipédia.
+
+> Quem foi o presidente antes do Lula? | Presidente anterior
+- O presidente antes do mandato atual de Lula (2026) foi Jair Bolsonaro, que governou de 2019 a 2022.
+
+> Quem era o presidente em 2003? | Presidente do Brasil 2003
+- Em 2003, Luiz Inácio Lula da Silva assumiu seu primeiro mandato como presidente do Brasil, após vencer as eleições de 2002.
+
+> Quem era o presidente em 2006? | Quem era o presidente em 2007? | Presidente do Brasil 2006 2007
+- Nesses anos o presidente era o Lula. Em 2006 ele foi reeleito, iniciando seu segundo mandato que começou oficialmente em 1º de janeiro de 2007.
+
+> Quem era o presidente em 2018? | Presidente do Brasil 2018
+- O ano de 2018 foi um período de transição. O presidente era Michel Temer, que assumiu após o impeachment de Dilma Rousseff. No final daquele ano, Jair Bolsonaro foi eleito para assumir em 2019.
+
+> Quem era o presidente em 1999? | Presidente do Brasil 1999
+- Em 1999, o presidente era Fernando Henrique Cardoso (FHC). Foi o início do seu segundo mandato, focado na estabilização do Real e em privatizações.
+
+> Quem era o presidente em 2012? | Presidente do Brasil 2012
+- Em 2012, a presidente era Dilma Rousseff. Ela estava no segundo ano do seu primeiro mandato, sendo a primeira mulher a governar o país.
+
+> Quem era o presidente em 2016? | Presidente do Brasil 2016
+- O ano de 2016 foi marcado por uma troca: Dilma Rousseff sofreu o processo de impeachment e o seu vice, Michel Temer, assumiu a presidência em definitivo no mês de agosto.
+
+> Quem era o presidente em 1986? | Presidente do Brasil 1986
+- Em 1986, o presidente era José Sarney. Foi o ano do famoso "Plano Cruzado", a primeira tentativa de controlar a hiperinflação da época.
+
+> O que é linguística? | O que estuda a linguística? | Definição de linguística
+- A Linguística é a ciência que estuda os fenômenos da linguagem verbal humana. Ela busca entender as estruturas e princípios que regem as línguas do mundo.
+- É a ciência que investiga como a linguagem funciona, suas características e as regras que organizam a fala e a escrita humana.
+
+> O que é um verbo? | O que são verbos? | Como identificar um verbo?
+- Verbo é a palavra que indica ação, estado ou fenômeno da natureza (como chover). Por exemplo: Na frase "Você gosta de mim", o verbo é "gostar".
+- O verbo afirma a existência de algo, uma ação ou um estado. Na frase "Maria estuda muito", o verbo é "estuda".
+
+> Quem foi Saussure? | Quem é Ferdinand de Saussure? | Pai da linguística
+- Ferdinand de Saussure foi um filósofo e linguista suíço. Ele é considerado o "pai" da linguística moderna porque a transformou em uma ciência autônoma.
+
+> O que é uma Gramática? | Para que serve a gramática? | Definição de gramática
+- A Gramática é a sistematização das regras de uma língua. É o conjunto de normas que usamos para falar e escrever "corretamente" segundo o padrão.
+
+> O que é um substantivo? | O que são substantivos? | Defina substantivo
+- Substantivo é a palavra que dá nome aos seres e coisas. Tudo que existe e tem um nome (pessoas, objetos, lugares) é um substantivo.
+
+> Quem é Noam Chomsky? | O que o Chomsky fez?
+- Avram Noam Chomsky é um dos linguistas mais influentes do mundo, além de filósofo e ativista. Ele criou a teoria da Gramática Gerativa.
+
+> O que é um sujeito? | Como achar o sujeito? | Sujeito na gramática
+- Na análise sintática, o sujeito é quem realiza ou sofre a ação da frase. Mas cuidado: existem orações sem sujeito, o que pode ser meio confuso às vezes!
+
+> Quem é Marcos Bagno? | Livros do Marcos Bagno
+- O Prof. Dr. Marcos Bagno é uma referência em Sociolinguística no Brasil. Ele é famoso por lutar contra o preconceito linguístico e escreveu livros como "A Língua de Eulália".
+
+> Quais os livros que todo estudante de Letras deve ter? | Livros essenciais de letras | O que ler em linguística?
+- Eu indicaria três fundamentais: uma gramática de confiança, um bom dicionário e o "Curso de Linguística Geral" do Saussure.
+
+> Quais as áreas da Linguística? | Áreas de estudo da linguística
+- São várias! As mais famosas são a Linguística Computacional (que ajuda a me criar!), Análise do Discurso, Sociolinguística e Linguística Aplicada.
+
+> Como usar os porquês? | Quando uso porque ou por que? | Uso do porquê | Diferença dos porquês
+- "Por que" (separado) para perguntas. "Porque" (junto) para respostas. "Por quê" (com chapéu) no fim da frase. E "O porquê" (substantivo) quando tem um motivo.
+- É simples: Por que pergunta? Porque responde! No final da frase tem o por quê? E se for o motivo, é o porquê. Deu para entender?
+
+> Qual a forma correta, concerteza ou com certeza? | Concerteza está certo?
+- O correto é "Com certeza", escrito separado! "Concerteza" junto não existe na norma culta.
+
+> O que são figuras de linguagem? | Para que servem figuras de linguagem?
+- São recursos que usamos na fala ou escrita para deixar a mensagem mais expressiva e artística, como a metáfora ou a ironia.
+
+> O que é um pronome? | Defina pronomes
+- Pronome é a palavra que substitui ou acompanha um nome (substantivo), ajudando a identificar quem fala ou de quem se fala.
+
+> O que é a ANPOLL?
+- É a Associação Nacional de Pós-Graduação e Pesquisa em Letras e Linguística. É o "quartel-general" da pesquisa acadêmica da área no Brasil.
+
+> Quais os pronomes pessoais do caso reto? | Lista de pronomes retos
+- Os pronomes do caso reto são: eu, tu, ele, ela, nós, vós, eles e elas.
+
+> O que é um advérbio? | Para que serve o advérbio? | significado de advérbio
+- O advérbio é a palavra que modifica o sentido de um verbo, de um adjetivo ou de outro advérbio, indicando circunstâncias como tempo, modo ou lugar.
+
+> O que é a langue e a parole? | Diferença de língua e fala Saussure
+- Para Saussure, a "Langue" (língua) é o sistema social e coletivo, enquanto a "Parole" (fala) é o uso individual e prático que cada um faz da língua.
+
+> O que é letramento e alfabetização? | Diferença entre alfabetizar e letrar
+- Alfabetizar é ensinar a ler e escrever (o código). Letramento é ensinar a usar a leitura e a escrita socialmente no dia a dia. São coisas diferentes, mas que caminham juntas!
+
+> perfil em inglês | Qual é a tradução de perfil em inglês? | Como se diz perfil em inglês?
+- A tradução de "Perfil" para o inglês é "Profile".
+- Você diz "Profile". Por exemplo: "My Instagram profile" (Meu perfil do Instagram).
+
+> Como se diz 'computador' em inglês? | computador em inglês | tradução de computador em ingles
+- Essa é fácil: se diz "Computer". Sabia que os primeiros computadores modernos foram feitos nos Estados Unidos e na Inglaterra?
+- Se diz "Computer". O primeiro computador eletrônico, o ENIAC, foi construído lá nos Estados Unidos em 1945!
+
+> O que significa 'AI' ou 'IA'? | Diferença entre IA e AI
+- É a mesma coisa! "IA" é Inteligência Artificial (em português) e "AI" é Artificial Intelligence (em inglês).
+
+> Como se diz 'bom dia' em inglês? | bom dia em inglês
+- Você diz "Good morning"! 
+
+> Como se diz 'tchau' em inglês? | tchau em inglês | adeus em inglês
+- Você pode usar "Goodbye", "Bye" ou o mais informal "See you later".
+
+> Qual a diferença entre 'Profile' e 'Account'? | conta ou perfil em inglês
+- "Profile" é o seu perfil (sua foto, bio, etc). "Account" é a sua conta no sistema (login e senha).
+
+> traduzir | tradução | você traduz?
+- Eu ainda não sou um tradutor completo, mas conheço várias palavras! Pode me perguntar "Como se diz [palavra] em inglês" que eu tento te ajudar.
+
+> Qual é uma espécie de peixe: Tope ou Rope? | O que é um Tope?
+- O Tope é a espécie de peixe! Na verdade, ele é um tipo de tubarão pequeno encontrado em oceanos temperados. "Rope", em inglês, significa corda.
+
+> Por que os camelos sobrevivem tanto tempo sem água? | Como o camelo armazena água?
+- Os camelos usam a gordura armazenada em suas corcovas para obter energia e hidratação por longos períodos. Eles não guardam água líquida ali, mas sim gordura que o corpo converte quando precisa!
+
+> Curiosidade sobre camelos | Onde vivem os camelos?
+- Eles são mestres da sobrevivência em desertos! Além das corcovas, eles podem fechar as narinas para não entrar areia e aguentar variações imensas de temperatura.
+
+> Pode me ajudar? | Me ajuda? | Pode me ajudar numa coisa? | Preciso de ajuda | Ajuda aqui
+- Claro! No que eu posso ser útil hoje?
+- Com certeza! Pode mandar sua dúvida.
+- Opa, estou aqui para isso! O que você precisa?
+
+> O que você sabe fazer? | No que você pode ajudar? | Suas funções
+- Eu sei sobre política, história do Brasil, linguística, curiosidades sobre animais, tradução para o inglês, piadas e muitas outras coisas! O que quer saber?
+
+> O que é um polígono? | Definição de polígono
+- Na geometria, um polígono é uma figura plana composta por uma sequência de segmentos de reta conectados, formando um circuito fechado. Os pontos onde esses segmentos (lados) se encontram são os vértices. Exemplos comuns incluem hexágonos e octógonos; já um círculo não é um polígono, pois não possui arestas retas.
+
+> Como começo a correr? | Dicas para começar a praticar corrida
+- O primeiro passo é investir em calçados confortáveis. Comece com metas realistas, como completar 5km. Se você é iniciante, alterne caminhadas rápidas com trotes leves por 15 a 30 minutos. Evolua a distância gradualmente, nunca esqueça do alongamento e, o mais importante: escute o seu corpo e respeite os dias de descanso para evitar lesões.
+
+> Quais episódios da 4ª temporada de Game of Thrones a Michelle MacLaren dirigiu?
+- Ela foi a responsável pela direção de "Oathkeeper" (o quarto episódio) e "First of His Name" (o quinto episódio) da quarta temporada.
+
+> O que é process mining? | O que é mineração de processos?
+- É uma técnica que une ciência de dados e gestão de processos. O objetivo é analisar registros de eventos (logs) para entender como os processos de uma empresa funcionam na prática e encontrar formas de torná-los mais eficientes.
+
+> Quais itens posso usar para prender cortinas de forma criativa? | Ideias de prendedores de cortina caseiros
+- Você pode usar vários objetos do dia a dia: cordas de juta, colares, pulseiras antigas, maçanetas de portas vintage, tiras de cintos de couro ou até flores artificiais. A ideia é transformar itens comuns em acessórios de decoração únicos.
+
+> O que é um prisma dispersivo? | Como funciona o prisma de luz?
+- É um componente óptico que separa a luz em suas diferentes cores (o espectro do arco-íris). Isso acontece porque cada cor de luz viaja através do prisma em um ângulo diferente, um fenômeno chamado dispersão, que foi o que permitiu a Newton estudar a composição da luz branca.
+
+> Quem fundou o Google? | Fundadores do Google
+- O Google foi fundado por Larry Page e Sergey Brin em 1998, enquanto eram estudantes de doutorado na Universidade Stanford.
+
+> Quem é o fundador da Amazon? | Criador da Amazon
+- A Amazon foi fundada por Jeff Bezos em 1994, começando originalmente como uma livraria online em sua garagem.
+
+> Quem fundou a Microsoft? | Donos da Microsoft
+- A gigante do software foi criada por Bill Gates e Paul Allen em 1975, focando inicialmente em interpretadores para o Altair 8800.
+
+> Quem fundou a Philips? | História da Philips
+- A empresa foi fundada em 1891 por Gerard Philips e seu pai, Frederik Philips, na Holanda. Mais tarde, Anton Philips (irmão de Gerard) impulsionou o crescimento global da marca.
+
+> Quem fundou a FIAT? | Origem da FIAT
+- A FIAT (Fabbrica Italiana Automobili Torino) foi fundada em 1899 por um grupo de investidores, sendo Giovanni Agnelli o nome mais proeminente e líder da marca por décadas.
+
+> Quem fundou a Pioneer? | Criador da Pioneer Corporation
+- A Pioneer foi fundada por Nozomu Matsumoto em 1938, em Tóquio. Ele começou a empresa movido pela paixão por alto-falantes de alta fidelidade.
+
+> O que é um arquivo .crdownload? | Eu achei este .crdownload, o que é isto? | O que é um .crdownload? | Significado do arquivo .crdownload
+- Esse é um arquivo temporário criado pelo Google Chrome (ou navegadores baseados no Chromium). Ele indica que um download ainda não foi concluído. Assim que o arquivo terminar de baixar, o navegador mudará a extensão para o formato real (como .jpg ou .exe). Se o download foi interrompido, ele fica parado assim.
+
+> O que é o Chrome? | Google Chrome | O que é o Google Chrome | O q é o Chrome
+- O Chrome é o navegador do Google. Ele é o mais usado no mundo e é conhecido pela sua velocidade e integração com a conta Google. Ele usa o motor Chromium como base.
+
+> O que é o Chromium? | Diferença entre Chrome e Chromium | O que é o Chromium | O q é o Chromium
+- O Chromium é um projeto de código aberto mantido pelo Google. Imagine que o Chromium é o "chassi" de um carro e o Chrome ou o Edge são o carro completo com pintura e acessórios. Quase todos os navegadores modernos usam o Chromium hoje.
+
+> O que é o Microsoft Edge? | Navegador da Microsoft | Q é o Edge? | O que é o Microsoft Edge   
+- O Edge é o navegador oficial da Microsoft que substituiu o antigo Internet Explorer. Atualmente, ele também é baseado no Chromium, o que o torna muito rápido e compatível com as extensões do Chrome.
+
+
+
+> Traduza a frase "O sol é amarelo" em inglês | Como se diz "O sol é amarelo" em inglês?
+- A tradução é: "The sun is yellow".
+
+> Traduza a frase "O pato tá no banheiro" em inglês | Como se diz "O pato tá no banheiro" em inglês?
+- A tradução é: "The duck is in the bathroom."
+
+> O que é Hardware e Software? | Diferença entre hardware e software
+- Hardware é a parte física (o que você chuta), e Software é a parte lógica (o que você xinga). Hardware são os componentes como CPU e RAM; Software são os programas e sistemas.
+
+> O que é um endereço IP? | Como funciona o IP?
+- O IP (Internet Protocol) é como o "endereço residencial" do seu dispositivo na rede. É ele que permite que os dados saibam exatamente para onde devem ir na internet.
+
+> O que é a Memória RAM? | Para que serve a RAM?
+- É a memória de curto prazo do computador. Ela armazena os dados que o processador precisa acessar agora. Quando você desliga o PC, tudo nela é apagado.
+
+> O que é o Kernel de um sistema operacional?
+- O Kernel é o núcleo do sistema. Ele faz a ponte entre o software (programas) e o hardware (processador/memória), gerenciando os recursos para que nada trave.
+
+> Quem criou o Python? | Criador do Python
+- Foi Guido van Rossum em 1991. Ele queria uma linguagem que fosse poderosa, mas muito fácil de ler e escrever.
+
+> O Linux é um sistema operacional? | O que é o Linux?
+- Tecnicamente, não. O Linux é um Kernel (núcleo), o componente que gerencia o hardware. O que usamos no dia a dia são as "Distribuições" (como Ubuntu, Debian e Fedora), que combinam o Kernel Linux com softwares do projeto GNU para formar um sistema operacional completo. Por isso, o termo mais correto é GNU/Linux.
+
+
+> Como Júlio César morreu? | Como Julio Cesar morreu? | Quem matou Julio Cesar?
+- Júlio César foi assassinado em 15 de março de 44 a.C. (os famosos Idos de Março). Ele foi cercado por cerca de 60 conspiradores no Senado Romano e recebeu 23 facadas. Os líderes da conspiração foram Marco Júnio Bruto e Caio Cássio Longino.
+
+> Qual é a capital da França? | Capital da frança | Onde fica Paris? | Qual a cidade principal da França? | Me diga a capital francesa
+- A capital da França é Paris, também conhecida como a "Cidade Luz". Ela é famosa por monumentos como a Torre Eiffel, o Museu do Louvre e a Catedral de Notre-Dame.
+
+> Gerar uma lista de dez itens que uma pessoa pode precisar para uma viagem de acampamento | O que levar para acampar? | Lista de itens para acampar | O que precisa para um acampamento? | Coisas indispensáveis para acampar
+- Aqui está sua lista para não passar aperto no mato: \n1. Tenda\n2. Sacos de dormir\n3. Lanterna\n4. Fósforos ou isqueiro\n5. Repelente de insetos\n6. Roupas extras\n7. Kit de primeiros socorros\n8. Fogão de acampamento\n9. Utensílios de cozinha\n10. Sabonete e shampoo biodegradáveis.
+
+> Classifique o seguinte em animais, plantas e minerais: Árvore de carvalho, minério de cobre, elefante | Separe em animais, plantas e minerais: Árvore de carvalho, minério de cobre, elefante | O que é animal, planta ou mineral aqui: Árvore de carvalho, minério de cobre, elefante
+- Organizado para você: \n- Carvalho: Planta \n- Minério de cobre: Mineral \n- Elefante: Animal
+
+> Discutir as causas da Grande Depressão | Quais as causas da crise de 1929? | Por que aconteceu a Grande Depressão? | O que causou a quebra da bolsa de Nova York? | Resumo sobre a crise de 1929
+- A Grande Depressão (1929-1939) foi causada por um "combo" de problemas: o crash da bolsa de Nova York, superprodução agrícola e industrial, baixos gastos do consumidor e a quebra da confiança nos bancos. Foi uma reação em cadeia que derrubou a economia mundial.
+
+> Quando nasceu Albert Einstein? | Data de nascimento de Einstein | Quando nasceu o Einstein
+- Albert Einstein nasceu no dia 14 de março de 1879, em Ulm, na Alemanha. Ele foi o físico que desenvolveu a Teoria da Relatividade, que mudou tudo o que sabemos sobre o universo.
+
+> Quem é Silas Malafaia?
+- Silas Malafaia é um televangelista brasileiro, pastor líder da Assembleia de Deus Vitória em Cristo. Ele é muito conhecido por sua forte atuação no cenário religioso e político do Brasil.
+
+> Quem matou Odete Roitman no remake? | Final de Vale Tudo 2025
+- Surpresa! No remake de 2025, ninguém matou a Odete. Ela sobreviveu ao tiro do Marco Aurélio, forjou a própria morte e fugiu do Brasil com a ajuda do Freitas. Uma reviravolta que chocou (e dividiu) o público!
+
+> Quem matou Odete Roitman em 1988? | Quem matou Odete Roitman original? | Final de Vale Tudo 1988
+- Na versão original de 1988, a assassina foi a Leila (Cássia Kis). Ela matou Odete por engano, achando que a vilã era a Maria de Fátima, que era amante do seu marido, o Marco Aurélio. Foi o maior "Quem matou?" da história da TV!
+
+> Por que a Leila matou a Odete? | Motivo da morte de Odete Roitman 1988
+- Foi um erro trágico! Leila deu três tiros através de uma porta de vidro pensando que estava matando Maria de Fátima, a amante de seu marido. Quando ela abriu a porta e viu que era a Odete Roitman, o Brasil inteiro entrou em choque.
+
+> Quem era a Odete Roitman original? | Beatriz Segall
+- Odete Roitman foi interpretada pela lendária Beatriz Segall na versão de 1988. Ela é considerada a maior vilã de todos os tempos das novelas brasileiras.
+
+> O Marco Aurélio matou a Odete?
+- Ele tentou! No remake, foi o Marco Aurélio quem deu o tiro, mas a vilã interpretada por Débora Bloch é dura de matar: ela sobreviveu e fugiu do país.
+
+> O que é pão de queijo? | Como é feito o pão de queijo? | Significado de pão de queijo
+O pão de queijo é uma iguaria típica brasileira, originária de Minas Gerais. Apesar do nome, tecnicamente ele é um tipo de biscoito de polvilho (azedo ou doce), ovos, sal, óleo e muito queijo. A grande diferença é que ele não leva farinha de trigo, o que o torna naturalmente livre de glúten!
+
+> Quando nasceu Isaac Newton? | Data de nascimento de Isaac Newton
+- Isaac Newton nasceu em 4 de janeiro de 1643 (no calendário gregoriano), em Woolsthorpe, na Inglaterra. Ele foi o gênio que formulou as leis do movimento e a lei da gravitação universal.
+
+> Quando foi descoberto o Brasil? | Data da descoberta do Brasil
+- O Brasil foi descoberto no dia 22 de abril de 1500. Foi nessa data que a esquadra portuguesa avistou o Monte Pascoal, na Bahia.
+
+> Quem descobriu o Brasil? | Quem chegou primeiro ao Brasil?
+- O líder da expedição que descobriu o Brasil foi o navegador português Pedro Álvares Cabral.
+
+> Quem é o Pedro Álvares Cabral? | Quem foi Pedro Álvares Cabral? | Pedro Álvares Cabral
+- Pedro Álvares Cabral foi um fidalgo, comandante militar, navegador e explorador português, hoje considerado o descobridor do Brasil. Ele chefiou a primeira expedição a chegar à costa brasileira em 22 de abril de 1500.
+
+> Quanto custa um iPhone? | Quanto é o preço do iPhone | Preço do iPhone | valor do iphone
+- Para eu te passar o valor exato, preciso saber qual modelo você procura. Atualmente temos o iPhone 16, o iPhone 17 (lançamento) e versões anteriores. 
+- Tente perguntar exatamente assim: "Quanto custa o iPhone 17" ou "Preço do iPhone 16". Assim eu busco no meu banco de dados o valor certinho para você!
+
+> Quanto custa o iphone 17? | Preço do iphone 17 | Quanto é o preço do iPhone 17?
+- Como estamos em janeiro de 2026, o iPhone 17 é o lançamento do momento! Os preços variam entre R$ 10.000 e R$ 20.000, dependendo da versão (Pro ou Max) e do armazenamento. Aqui está as informações obtidas desde 29/01/2026: No site oficial da Apple, o preço do iPhone 17 Pro Laranja 256 GB está em torno do preço de R$ 11.499,00. O de 512 GB em torno de R$ 12.999,00 e o de 1 TB está em torno de R$ 14.499,00.
+
+> Preço do iphone 16 | Quanto custa o iPhone 16 | Quanto é o preço do iPhone 16?
+- O iPhone 16 tem várias versões! Tem o 16e, tem o 16 Pro, 16 Pro Max entre outros. No site oficial da Apple (informações obtidas em 27/01/2026), o iPhone 16 custa R$ 6.799,00, enquanto o iPhone 16 Plus custa R$ 8.499,00 na versão de 128 GB e R$ 9.299,00 na versão de 256 GB. Lembre-se de sempre consultar condições, descontos e frete.
+
+> Site da Apple | Qual é o site da Apple? | Link da Apple
+- O site oficial da Apple no Brasil é https://www.apple.com/br/. Lá você confere todos os preços atualizados que eu te passei agora há pouco!
+
+> O que é mais caro: iPhone 17 ou Switch 2? | Comparar iPhone e Switch | Compare o iPhone 17 Pro e o Nintendo Switch 2
+- O iPhone 17 Pro de 1 TB é bem mais caro! Para você ter ideia, com o preço de um iPhone desses (R$ 14.499,00), você conseguiria comprar quase 3 Nintendo Switch 2 (na promoção de R$ 4.184,08) e ainda sobrava um troco para os jogos!
+
+> O que é o amor? | Definição de amor
+- O amor é um sentimento profundo de afeição, união e entrega. Pode ser o amor romântico, familiar ou fraternal. Segundo os poetas, é o que move o mundo!
+
+> Quem foi Jesus Cristo? | Quem é Jesus? | Quem foi Jesus?
+- Jesus Cristo é a figura central do Cristianismo, considerado o Filho de Deus por bilhões de pessoas. Ele pregou o amor, o perdão e a caridade na região da Judeia há cerca de dois mil anos.
+
+> O que é a Teoria da Relatividade? | Quem criou a relatividade? | Einstein relatividade
+- Criada por Albert Einstein, a teoria diz que o tempo e o espaço não são fixos, mas dependem da velocidade e da gravidade. Foi o que mudou a física moderna!
+
+> Qual o maior planeta do sistema solar? | maior planeta | Júpiter
+- O maior planeta é Júpiter! Ele é tão grande que caberiam mais de 1.300 Terras dentro dele. Ele é basicamente um gigante gasoso.
+
+> Quem pintou a Monalisa? | Leonardo da Vinci | Autor da Monalisa
+- A Monalisa, também conhecida como A Gioconda, foi pintada pelo gênio italiano Leonardo da Vinci no início do século XVI.
+
+> Qual a capital da França? | Onde fica Paris?
+- A capital da França é Paris, conhecida como a "Cidade Luz" e famosa pela Torre Eiffel.
+
+> O que é o Pix? | Como funciona o Pix?
+- O Pix é o sistema de pagamentos instantâneos criado pelo Banco Central do Brasil. Com ele, você transfere dinheiro em segundos, a qualquer hora, usando apenas uma chave como CPF ou celular.
+
+> Quem é o dono da SpaceX? | Elon Musk | Quem é o Elon Musk?
+- Elon Musk é o fundador da SpaceX e da Tesla. Em 2026, ele continua focado em levar a humanidade para Marte e integrar IA no cotidiano.
+
+> Qual o país mais rico do mundo? | maior economia do mundo
+- Atualmente, os Estados Unidos e a China disputam o topo, mas em termos de PIB total, os EUA ainda mantêm a liderança como a maior economia do mundo.
+
+> Como fazer café? | Receita de café
+- É simples! Coloque o pó no filtro (cerca de 2 colheres para cada 200ml), despeje água quente (quase fervendo) em movimentos circulares e sinta o cheirinho do sucesso.
+
+> Quem foi Cabral? | Quem é o Cabral | Cabral
+- Você se refere ao Pedro Álvares Cabral (descobridor do Brasil) ou a outra figura histórica? Se estiver falando do Pedro Álvares Cabral, me pergunte "Quem foi Pedro Álvares Cabral?" ao invés de sua resposta.
+
+> Qual é a fórmula da água? | Formula da agua
+- A fórmula química da água é H2O. Isso significa que cada molécula é composta por dois átomos de hidrogênio e um de oxigênio.
+
+> Qual a distância da terra ao sol? | Distancia do sol e da terra
+- A distância média entre a Terra e o Sol é de cerca de 149,6 milhões de quilômetros. Essa distância é chamada de Unidade Astronômica (AU).
+
+> Qual a distância da terra à lua? | Distancia terra e lua
+- A distância média entre a Terra e a Lua é de aproximadamente 384.400 quilômetros.
+
+> Qual a distância do sol à lua? | Distancia sol e lua
+- A distância entre o Sol e a Lua é praticamente a mesma que a da Terra ao Sol (cerca de 150 milhões de km), já que a Lua orbita a Terra.
+
+> Se a vida te der limões... | Se a vida te der limões o que eu faço? | Frase sobre limões | Se a vida te der limonadas... | O que fazer com limões?
+- Se a vida te der limões, faça uma limonada, venda e compre algo!
+- Se a vida te der limões, aproveite o refresco e relaxe!
+- Se a vida te der limões, faça uma limonada bem gelada e convide os amigos!
+
+> Quando a roda foi inventada? | Quem inventou a roda? | Origem da roda | História da roda
+- Ninguém sabe a data exata, mas as evidências mostram que a roda surgiu na Mesopotâmia há cerca de 7.000 anos, no período Neolítico. Curiosidade: ela foi usada primeiro para fazer cerâmica e só depois adaptada para transportes em carros de combate por volta de 3.000 a.C. na Suméria!
+- A roda é uma das invenções mais importantes da humanidade. Ela apareceu primeiro como torno de oleiro (para vasos) na Mesopotâmia e revolucionou o transporte terrestre milênios depois. Hoje, ela é a base de quase todas as máquinas modernas.
+
+> Para que servia a primeira roda? | A roda era para carros?
+- Por incrível que pareça, as primeiras rodas não eram para transporte, mas sim para a produção de cerâmica (o torno de oleiro)! Só muito tempo depois é que começaram a usar eixos e rodas em carroças e bigas.
+
+> Traduza edge | O que significa edge? | Significado de edge
+- No sentido literal, "Edge" significa borda, beira, gume (de uma faca) ou margem. No mundo da tecnologia, é o nome do navegador da Microsoft e também pode se referir a "Edge Computing" (processamento de dados na borda da rede).
+
+> O que é o Internet Explorer? | O Internet Explorer | Navegador antigo da Microsoft
+- O Internet Explorer (IE) foi o navegador padrão da Microsoft por décadas, mas hoje ele é considerado "pré-histórico". Ele foi aposentado oficialmente em 2022 porque não suporta as tecnologias modernas e é muito vulnerável. Usar o IE hoje é perigoso: como ele não recebe mais atualizações, você fica exposto a vírus e malwares com facilidade!
+
+> O que aconteceu com o Internet Explorer? | O Internet Explorer ainda existe?
+- Ele morreu para dar lugar ao futuro! A Microsoft o substituiu pelo Microsoft Edge. Se você tentar abrir o IE no Windows 10 ou 11 hoje, ele provavelmente vai te redirecionar direto para o Edge. Atualmente, ele só vive na memória dos nostálgicos e nos memes de lentidão da internet.
+
+> Por que o Internet Explorer era lento? | Internet Exploder travar
+- Ele ficou para trás porque não conseguia processar os códigos modernos dos sites atuais. Por isso ele ganhou o apelido de "Internet Exploder": ele travava tanto que parecia que o PC ia explodir!
+
+> O que é a borda do navegador?
+- Quando falamos do Microsoft Edge, o nome sugere que ele está na "fronteira" ou na ponta da tecnologia da Microsoft. Mas no dia a dia, "edge" é apenas a borda de qualquer coisa!
+
+> Explicar o uso de incorporações de palavras no Processamento de Linguagem Natural | O que são Word Embeddings? | Como a IA entende palavras? | Explique NLP e vetores de palavras
+- As incorporações de palavras (Word Embeddings) são representações matemáticas onde palavras são transformadas em vetores numéricos em um espaço multidimensional. Isso permite que a IA entenda o contexto e a semelhança entre palavras (como saber que "rei" está para "homem" assim como "rainha" está para "mulher"). É a base para tradução automática e análise de sentimentos!
+
+> Descreva a função de uma placa-mãe de computador | O que faz a placa-mãe? | Para que serve a motherboard? | Qual a peça principal de um PC?
+- A placa-mãe é a "espinha dorsal" do computador. Sua função é conectar e permitir a comunicação entre todos os componentes, como processador, RAM e SSD. Ela também regula a energia e oferece as portas de conexão (USB, áudio, rede) que usamos. Sem ela, as peças seriam apenas componentes isolados sem função.
+
+> O que o DNA representa? | O que significa DNA? | Qual a definição de ácido desoxirribonucleico?
+- DNA significa Ácido Desoxirribonucleico. Ele é a molécula que carrega toda a informação genética de um ser vivo, servindo como um "manual de instruções" para a construção e funcionamento das células e de todo o corpo.
+
+> Propor uma solução ética para o problema da privacidade de dados | Como resolver a falta de privacidade na internet? | Ética e coleta de dados pessoais
+- Uma solução ética fundamental é o sistema "Opt-in" obrigatório: empresas só podem coletar dados se o usuário der permissão explícita e clara. Além disso, deve haver transparência total sobre o uso desses dados e o direito garantido do usuário de apagar suas informações quando quiser. Privacidade é um direito, não um favor!
+
+> Quem é o pintor mais famoso do mundo? | Qual o artista mais conhecido da história? | Quem pintou a Mona Lisa? | Leonardo da Vinci é o maior pintor?
+- O título geralmente vai para Leonardo da Vinci, o mestre renascentista. Ele criou obras icônicas como a "Mona Lisa" e "A Última Ceia". Além de pintor, ele era um gênio inventor que projetou protótipos de tanques e helicópteros séculos antes de existirem!
+
+> Transcreva a gravação sobre a história de Waterloo | O que foi a Batalha de Waterloo? | Quem venceu em Waterloo? | Resumo sobre Napoleão em Waterloo
+- A Batalha de Waterloo ocorreu em 18 de junho de 1815 e foi o golpe final em Napoleão Bonaparte. Travada na atual Bélgica, envolveu as forças francesas contra uma coalizão liderada pelo Duque de Wellington (britânicos) e Blücher (prussianos). A derrota de Napoleão ali encerrou de vez o seu domínio na Europa.
+
+> Gerar três verbos que significam o mesmo que desculpar | Sinônimos de desculpar | Verbos similares a pedir desculpas
+- Aqui estão três opções para você usar: \n1. Reconhecer (o erro) \n2. Redimir-se \n3. Reconciliar-se. \nEsses verbos capturam a essência de buscar o perdão ou fazer as pazes!
+
+> Descreva a vida e o reinado do rei Carlos II | Quem foi o rei Carlos II? | História de Carlos II da Inglaterra | Reinado de Carlos II
+- Carlos II assumiu o trono inglês em 1661, após a Guerra Civil Inglesa. Seu reinado (até 1685) foi marcado pelo apoio às artes, ciência e esportes. Ele foi um governante moderado, respeitou liberdades civis e religiosas, e incentivou áreas como astronomia e história natural, sendo um patrono de grandes artistas da época.
+
+> Encontre a área de um círculo com raio 2 | Qual a área de um círculo de raio 2? | Calcule a área de um círculo: Raio 2
+- A área de um círculo com raio 2 é de aproximadamente 12,5664 unidades quadradas. O cálculo: A = 3,1416 * 2², que resulta em 3,1416 * 4.
+
+> Encontre a área de um círculo com raio 5 | Qual a área de um círculo de raio 5? | Calcule a área de um círculo: Raio 5
+- A área de um círculo com raio 5 é de aproximadamente 78,54 unidades quadradas. Aplicando a fórmula: A = π * 5², ou seja, 3,1416 * 25.
+
+> Encontre a área de um círculo com raio 10 | Qual a área de um círculo de raio 10? | Calcule a área de um círculo: Raio 10
+- A área de um círculo com raio 10 é de aproximadamente 314,16 unidades quadradas. Como o raio é 10, o cálculo fica fácil: 3,1416 * 100.
+
+> Como calcular o comprimento de uma circunferência? | Fórmula do perímetro do círculo | Qual o comprimento de um círculo?
+- Para calcular o comprimento (perímetro) de uma circunferência, usamos a fórmula C = 2 * π * r. Basta multiplicar duas vezes o valor de Pi pelo raio do círculo!
+
+> Qual o comprimento de um círculo com raio 4? | Perímetro de um círculo de raio 4
+- O comprimento é de aproximadamente 25,13 unidades. O cálculo é: C = 2 * 3,1416 * 4.
+
+> Qual é o número pi? | Valor do pi | O que é o número Pi? | Me diga o número pi | Qual o valor de pi? | Qual o valor do π? | Me diga o π | Me diga o número π
+- O número Pi (π) é uma constante matemática que representa a razão entre a circunferência de um círculo e seu diâmetro. Seu valor aproximado é 3,14159, mas geralmente usamos 3,14 para cálculos simples. Ele é um número irracional, o que significa que suas casas decimais são infinitas e não se repetem!
+
+> Encontre o nome da montanha mais alta do mundo | Qual a maior montanha do mundo? | Qual o pico mais alto do planeta? | Qual é a montanha mais alta da Terra? | Nome da maior montanha
+- O Monte Everest é a montanha mais alta do mundo, com uma altitude de 8.848 metros acima do nível do mar. Ele está localizado na cordilheira do Himalaia, na fronteira entre o Nepal e o Tibete (China).
+
+> O que é uma roda de sabor? | Como funciona a roda de sabores? | Explique o conceito de roda de sabor | Classificação de sabores
+- Uma roda de sabor é um gráfico que ajuda a identificar e classificar sabores, mostrando como eles se relacionam entre si. Ela é dividida em áreas que representam categorias como salgado, azedo, amargo, doce e umami, facilitando a análise sensorial de alimentos e bebidas.
+
+
+
+> Calcule a soma dos primeiros 100 inteiros positivos | Qual a soma de 1 a 100? | Soma da sequência aritmética de 100 números
+- A soma dos primeiros 100 inteiros positivos é 5050. O processo utiliza a fórmula da progressão aritmética: Sn = n/2 * (a1 + an). Com n=100, a1=1 e an=100, temos 50 * 101, resultando exatamente em 5050.
+
+> Quais as vantagens da robótica na manufatura? | Benefícios dos robôs nas fábricas | Por que usar robôs na indústria?
+- O uso da robótica traz três vantagens principais: 1. Maior eficiência e precisão em tarefas repetitivas. 2. Maior segurança, pois robôs assumem tarefas perigosas. 3. Redução de custos operacionais a longo prazo devido à menor dependência de mão de obra manual.
+
+> Quais os desafios dos veículos autônomos? | Problemas dos carros que dirigem sozinhos | Riscos da autonomia veicular
+- Os desafios são divididos em três frentes: Técnicos (custo, confiabilidade e sensores), Éticos (tomada de decisão em situações de acidente) e Regulatórios (leis de responsabilidade civil). Além disso, há uma grande preocupação com a privacidade, já que esses veículos coletam dados constantes de localização e atividade dos usuários.
+
+> Como aumentar o engajamento nas redes sociais? | Estratégia de mídia social | Dicas para ter mais engajamento
+- Uma estratégia eficaz inclui definir metas mensuráveis e criar conteúdo visual (vídeos e imagens) adaptado ao público. É essencial postar com regularidade, responder comentários rapidamente, usar influenciadores e aproveitar recursos interativos como enquetes, stories e lives para criar conexão real com a audiência.
+
+> Benefícios da publicidade digital | Por que investir em marketing digital? | Vantagens dos anúncios online
+- A publicidade digital permite alcançar um público global de forma direcionada, permitindo medir o desempenho em tempo real e ajustar campanhas instantaneamente. Ela é mais econômica que a publicidade tradicional e oferece taxas de conversão maiores por ser personalizada conforme as preferências do público-alvo.
+
+> Ideias para promover produtos | Como fazer marketing de um produto? | Lista de estratégias de promoção
+- Algumas ideias eficazes são: lançar programas de fidelidade ou indicação, realizar sorteios, usar influenciadores digitais, oferecer cupons de desconto, publicar estudos de caso reais, criar conteúdo interativo em blogs e organizar eventos ao vivo para demonstração do produto.
+
+> Quais são os 5 sabores básicos? | Quais sabores o ser humano sente?
+- Os cinco sabores básicos detectados pela língua humana são: Doce, Salgado, Azedo (ácido), Amargo e Umami (sabor saboroso, frequentemente associado ao glutamato).
+
+> O que é a indústria 4.0? | Definição de manufatura avançada
+- A Indústria 4.0 é a nova fase da revolução industrial focada em interconectividade, automação, aprendizado de máquina (Machine Learning) e dados em tempo real. Ela une a produção física com tecnologias digitais inteligentes para criar fábricas mais eficientes.
+
+> Qual a função da palavra-chave 'this' em Javascript? | O que é o 'this' no JS? | Para que serve o 'this' em Javascript? | Explique o 'this' em programação
+- No JavaScript, a palavra-chave 'this' refere-se ao objeto que está executando o código no momento (o contexto). Ela pode apontar para o objeto que chamou a função atual, para um objeto global ou ser definida manualmente através de métodos como call, apply ou bind.
+
+
+
+> Diferença entre tarefas de classificação e geração | O que é classificação e geração em IA? | Categorize: Classificar e-mails vs Gerar resumos
+- Classificação e Geração são tarefas fundamentais de IA:
+1. Classificação: É rotular dados (ex: Identificar se um e-mail é "Spam" ou "Não Spam").
+2. Geração: É criar conteúdo novo (ex: Escrever um resumo automático de uma revisão).
+
+> Quais as vantagens da robótica na manufatura? | Benefícios dos robôs na indústria | Por que usar automação industrial?
+- A robótica industrial oferece três grandes vantagens:
+1. Eficiência: Maior precisão em tarefas repetitivas.
+2. Segurança: Robôs realizam trabalhos perigosos, protegendo humanos.
+3. Economia: Redução de custos a longo prazo e menor desperdício de materiais.
+
+> Como aumentar o engajamento nas redes sociais? | Estratégia de mídia social | Dicas para crescer no Instagram e TikTok
+- Foque em definir metas claras e criar conteúdo visual (vídeos/fotos) para o seu público. Poste com regularidade, responda comentários rapidamente, use influenciadores e explore recursos interativos como enquetes, stories e transmissões ao vivo.
+
+> Quais os benefícios da publicidade digital? | Vantagens do marketing online | Por que anunciar no Google ou redes sociais?
+- A publicidade digital permite um alcance global e segmentado, onde você paga apenas para quem tem interesse no produto. É mais barata que a mídia tradicional, permite ajustes rápidos e oferece métricas de desempenho em tempo real.
+
+> Ideias para promover produtos | Lista de estratégias de marketing | Como divulgar minha marca?
+- Você pode usar programas de fidelidade, realizar sorteios (brindes), fazer parcerias com influenciadores, oferecer cupons de desconto, criar blogs de conteúdo, e organizar eventos ao vivo ou campanhas de e-mail marketing.
+
+> O que é uma roda de sabor? | Como funciona o gráfico de sabores? | Classificação sensorial de alimentos
+- É um gráfico circular usado para identificar e categorizar sabores (como doce, salgado, amargo, azedo e umami). Ele ajuda especialistas e consumidores a entenderem como diferentes notas gustativas se relacionam entre si.
+
+> O que é Umami? | Qual o quinto sabor básico?
+- O Umami é o quinto sabor básico, além do doce, salgado, amargo e azedo. É descrito como um sabor "saboroso" ou "agradável", muito presente em alimentos como tomates maduros, queijos curados e carnes.
+
+> Qual a circunferencia de Urano? | Tamanho de Urano | Qual o perimetro de Urano? | Distancia ao redor de Urano
+- Urano tem uma circunferência equatorial de aproximadamente 159.354 km. Ele é o terceiro maior planeta do Sistema Solar em termos de raio e possui uma cor azul-esverdeada devido à presença de gás metano na sua atmosfera.
+
+> Qual a circunferencia da Terra? | Tamanho da Terra | Qual o perimetro da Terra?
+- A circunferência da Terra na linha do Equador é de aproximadamente 40.075 km. Se você desse uma volta completa no planeta, essa seria a distância percorrida!
+
+> Qual a circunferencia de Jupiter? | Tamanho de Jupiter | Qual o perimetro de Jupiter?
+- Júpiter é um gigante! Sua circunferência equatorial é de aproximadamente 439.264 km. Caberiam 11 Terras enfileiradas apenas no seu diâmetro.
+
+> Qual a circunferencia de Marte? | Tamanho de Marte | Qual o perimetro de Marte?
+- Marte é menor que a Terra. Sua circunferência equatorial é de cerca de 21.344 km, o que é quase metade do tamanho do nosso planeta.
+
+> Qual a circunferencia da Lua? | Tamanho da Lua | Qual o perimetro da Lua?
+- A Lua tem uma circunferência de aproximadamente 10.921 km. Para comparar, ela é menor que a largura da Ásia!
+
+> Qual a circunferencia do Sol? | Tamanho do Sol | Qual o perimetro do Sol?
+- O Sol é colossal. Sua circunferência equatorial é de incríveis 4.379.000 km. É uma escala difícil de imaginar perto dos planetas.
+
+> Qual a circunferencia de Saturno? | Tamanho de Saturno | Qual o perimetro de Saturno?
+- Saturno tem uma circunferência de aproximadamente 378.675 km (sem contar os anéis, claro!). É o segundo maior planeta do nosso sistema.
+
+> Qual a circunferencia de Venus? | Tamanho de Venus | Qual o perimetro de Venus?
+- Vênus é quase o gêmeo da Terra em tamanho, com uma circunferência de aproximadamente 38.025 km.
+
+> O que é o ENEM? | Como funciona o Exame Nacional do Ensino Médio? | Para que serve o ENEM?
+- O ENEM é a principal porta de entrada para o ensino superior no Brasil. Ele avalia o desempenho escolar dos estudantes ao fim da educação básica e seus resultados são usados no Sisu, ProUni e Fies.
+
+> O que é o SAT? | Como funciona o vestibular dos Estados Unidos? | Diferença entre ENEM e SAT
+- O SAT (Scholastic Assessment Test) é um exame padronizado usado para admissão em universidades nos EUA. Enquanto o ENEM é muito focado em conteúdos extensos, o SAT foca mais em leitura crítica, escrita e raciocínio matemático.
+
+> Qual a principal característica da primeira fase da Revolução Industrial? | Questão ENEM Revolução Industrial
+- A principal característica foi a transição dos métodos de produção manuais para a mecanização, com o uso da máquina a vapor e do carvão mineral como fonte de energia, começando na Inglaterra no século XVIII.
+
+> Qual é o valor de x se 2x + 3 = 11? | Resolva 2x + 3 = 11
+- O valor de x é 4. O cálculo é: subtraia 3 de 11 (resultando em 8) e depois divida por 2. Portanto, x = 4.
+
+> Como se diz "Olá" em inglês? | Tradução de Olá | Olá em inglês
+- "Olá" em inglês é "Hello".
+
+> Como se diz "Obrigado" em inglês? | Tradução de Obrigado | Obrigado em inglês
+- "Obrigado" em inglês é "Thank you".> Como se diz "Como está?" em inglês? | Tradução de Como está? | Como vai em inglês
+- "Como está?" em inglês é "How are you?".
+
+> Como se diz "Muito prazer" em inglês? | Tradução de Muito prazer | Prazer em conhecer em inglês
+- "Muito prazer" em inglês é "Nice to meet you".
+
+> Como se diz "De nada" em inglês? | Tradução de De nada | De nada em inglês
+- "De nada" em inglês é "You are welcome".
+
+> Como se diz "Até logo" em inglês? | Tradução de Até logo | Tchau em inglês
+- "Até logo" ou "Tchau" em inglês é "Good bye" ou "See you later".
+
+> Como se diz "Boa noite" em inglês? | Tradução de Boa noite | Boa noite em inglês
+- Em inglês existem duas formas: "Good evening" (ao chegar) e "Good night" (ao sair ou ir dormir).
+
+> Como se diz "Por favor" em inglês? | Tradução de Por favor | Por favor em inglês
+- "Por favor" em inglês é "Please".
+
+> Como se diz "Com licença" em inglês? | Tradução de Com licença | Com licença em inglês
+- "Com licença" em inglês é "Excuse me".
+
+> Como se diz "Não, obrigado" em inglês? | Tradução de Não, obrigado | Não, obrigado em inglês
+- "Não, obrigado" em inglês é "No, thank you".
+
+> Como se diz "Desculpa" em inglês? | Tradução de Desculpa | Sinto muito em inglês
+- "Desculpa" ou "Sinto muito" em inglês é "I am sorry".
+
+> Como criar uma senha forte? | Criando uma senha forte | Como crio uma senha forte? | Como crio uma senha segura? | Criando uma senha segura
+- Uma senha forte deve ter pelo menos 12 caracteres, incluindo uma mistura de letras maiúsculas, minúsculas, números e símbolos especiais. Evite usar datas de nascimento, nomes óbvios (tipo do seu cachorro, gato, seu nome etc.) e nomes da rede social.
+
+> O que foi o período da República Velha no Brasil?
+- Foi o período entre 1889 e 1930, marcado pelo domínio das oligarquias agrárias (política do café com leite), o coronelismo e o voto de cabresto. Terminou com a Revolução de 1930, que levou Getúlio Vargas ao poder.
+
+> O que fazer se o computador travar? | Meu PC congelou, o que eu faço? | Como destravar o Windows?
+- Tente o atalho 'Ctrl + Alt + Del' para abrir o Gerenciador de Tarefas e encerrar o programa que não responde. Se você não consegue ver a tela do computador atualizar (por exemplo, se o cursor do mouse não mover ou o jogo não está lhe mostrando as imagems), tente Ctrl+Windows+Shift+B para reiniciar os drivers de vídeo. Se nada funcionar, segure o botão de energia por 10 segundos para forçar o desligamento e reiniciar o sistema.
+
+> O que fazer se o computador travar? | Meu PC congelou, o que eu faço? | Como destravar o Windows? | Tela travada o que fazer | Como destravar o PC | Meu Windows travou o que eu faço? | 
+- Se o Windows travar, tente estes passos: \n1. Aperte 'Ctrl + Alt + Del' para abrir o Gerenciador de Tarefas e encerrar o programa que parou. \n2. Se a imagem sumiu ou o mouse não mexe, tente 'Ctrl + Windows + Shift + B' para resetar os drivers de vídeo (a tela dará um bipe e piscará). \n3. Se nada resolver, segure o botão físico de energia por 10 segundos para forçar o desligamento.
+
+> Como criar uma senha forte? | Criando uma senha forte | Como crio uma senha segura? | Dicas de segurança de senha | Senha difícil
+- Para uma senha ser realmente segura, siga estas regras: \n1. Use pelo menos 12 caracteres. \n2. Misture MAIÚSCULAS, minúsculas, números e símbolos (!@#$). \n3. Nunca use dados óbvios como seu nome, data de nascimento, nome do pet ou sequências tipo '123456'. \n4. Uma dica é usar uma frase que só você conhece e trocar letras por símbolos!
+
+> Quais autores Emily Bronte admirava? | Autores favoritos de Emily Bronte | Influências literárias de Emily Bronte
+- Emily Brontë admirava profundamente grandes nomes da literatura. Entre suas principais referências estavam: \n- William Shakespeare \n- William Wordsworth \n- John Keats \n- Charles Dickens \nSuas obras refletem a intensidade e o romantismo desses autores.
+
+> Diferença entre Ciência da Computação e Engenharia de Software | Ciência da Computação vs Engenharia de Software | O que estuda a Engenharia de Software?
+- Embora relacionadas, as áreas têm focos distintos: \n1. Ciência da Computação: Foca nos fundamentos teóricos e matemáticos, como algoritmos, teoria da computação e linguagens de programação. \n2. Engenharia de Software: Foca na aplicação prática, lidando com o design, desenvolvimento, manutenção, gestão de projetos e garantia de qualidade de sistemas reais.
+
+> Quem são os membros da banda U2? | Formação da banda U2 | Quais os integrantes do U2? | Quais os integrantes da banda U2?
+- A formação clássica e atual do U2 conta com: \n- Bono (Vocal) \n- The Edge (Guitarra e teclados) \n- Adam Clayton (Baixo) \n- Larry Mullen Jr. (Bateria)
+
+> Qual a obra mais famosa de Emily Bronte? | Quem escreveu O Morro dos Ventos Uivantes?
+- A obra mais famosa (e única) de Emily Brontë é o clássico "O Morro dos Ventos Uivantes" (Wuthering Heights), publicado em 1847. É considerado um dos romances mais intensos da literatura inglesa.
+
+> O que faz um Engenheiro de Software? | Carreira em Engenharia de Software
+- Um engenheiro de software projeta e constrói sistemas de computador complexos. Ele aplica métodos de engenharia para garantir que o software seja confiável, eficiente e fácil de manter, cuidando desde a arquitetura até os testes finais.
+
+> Qual a principal diferença entre Florestas Aleatórias e Árvores de Decisão? | Random Forest vs Decision Tree | IA: Florestas Aleatórias vs Árvores de Decisão
+- A principal diferença é a quantidade e a precisão: \n1. Árvores de Decisão: Usam uma única estrutura, sendo mais rápidas mas propensas ao "overfitting" (decorar os dados em vez de aprender). \n2. Florestas Aleatórias (Random Forest): Criam várias árvores e combinam seus resultados, o que reduz erros e gera previsões muito mais precisas e estáveis.
+
+> Como a IA pode impactar a educação? | Inteligência Artificial no ensino | Benefícios da IA para estudantes
+- A IA transforma a educação de várias formas: \n- Aprendizado Personalizado: Adapta o conteúdo ao ritmo de cada aluno. \n- Feedback Imediato: Avaliações e correções automáticas. \n- Mentoria Virtual: Tutores de IA disponíveis 24h. \n- Gestão: Analisa dados para prever o desempenho do aluno e automatiza tarefas administrativas chatas para os professores.
+
+> Como funciona o Crowdfunding? | O que é vaquinha virtual? | Financiamento coletivo como funciona
+- Crowdfunding é a arrecadação de recursos através do esforço coletivo (geralmente online). \n1. Criador: Define uma meta e apresenta o projeto em uma plataforma. \n2. Contribuintes: Pessoas doam valores em troca de recompensas ou participação. \n3. Divulgação: Usa-se redes sociais para atrair o máximo de apoiadores e bater a meta financeira.
+
+> Calcule a área de um retângulo de 4cm x 5cm | Área do retângulo 4x5 | Qual a área de um retângulo?
+- A área de um retângulo é calculada multiplicando a base pela altura (A = b * h). \nPara um retângulo de 4 cm x 5 cm, a área é de 20 centímetros quadrados (20 cm²).
+
+> Calcule a média dos primeiros 20 números ímpares | Qual a média dos primeiros ímpares?
+- A média dos primeiros "n" números ímpares é sempre igual a "n". \nPara os primeiros 20 números ímpares (1, 3, 5... até 39), a soma é 400 e a média é exatamente 20.
+
+> Calcule os ângulos de um triângulo com lados AB=5, BC=7 e AC=9 | Trigonometria: triângulo lados 5, 7 e 9
+- Usando a Lei dos Cossenos para esses lados: \n- O ângulo A (oposto ao lado BC=7) é de aproximadamente 50,7°. \n- O ângulo B (oposto ao lado AC=9) é de aproximadamente 95,7°. \n- O ângulo C (oposto ao lado AB=5) é de aproximadamente 33,6°. \n(Nota: A soma dos ângulos internos sempre resulta em 180°).
+
+> Qual a cotação do dólar hoje? | Quanto vale 1 dólar em real? | Converter USD para BRL | Valor do dólar MSN Dinheiro | Dólar agora
+- De acordo com dados do MSN Dinheiro em 29/01/2026, às 15:56:08, 1 Dólar americano (USD) equivale a aproximadamente 5,1936 Reais (BRL). \nLembre-se: este valor é uma cotação de referência e pode variar conforme as taxas do mercado financeiro e impostos como o IOF.
+
+> Como converter Dólar para Real? | Fórmula de conversão de moeda | Calcular valor em dólar
+- Para saber o valor em reais, basta multiplicar a quantidade de dólares pela cotação atual. \nExemplo (Cotação 5,1936): 100 Dólares x 5,1936 = 519,36 Reais. \nPara fazer o caminho inverso (Real para Dólar), basta dividir o valor em reais pela cotação.
+
+> O que faz o dólar subir ou descer? | Por que o câmbio muda? | Fatores que alteram o dólar
+- O valor do dólar varia devido a vários fatores principais: \n1. Oferta e Procura: Se muitos investidores compram dólares, o preço sobe. \n2. Taxa de Juros (Selic): Juros altos no Brasil podem atrair capital estrangeiro e baixar a cotação. \n3. Cenário Político e Econômico: Incertezas fazem investidores buscarem segurança no dólar, aumentando seu valor globalmente.
+
+> Qual a diferença entre Dólar Comercial e Dólar Turismo? | Tipos de cotação de dólar
+- A diferença está na finalidade: \n1. Dólar Comercial: Usado por empresas para importação/exportação e pelo governo. É a cotação que vemos no jornal. \n2. Dólar Turismo: Usado por pessoas físicas para viagens e compras no exterior. É mais caro pois inclui custos de logística e manutenção das casas de câmbio.
+
+> O que é a hipotenusa e como calcular? | Teorema de Pitágoras | Calcular lado de triângulo retângulo
+- Em um triângulo retângulo, a hipotenusa é o lado mais longo (oposto ao ângulo de 90°). \nEla é calculada pelo Teorema de Pitágoras: a² + b² = c², onde 'c' é a hipotenusa. Se os catetos são 3 e 4, a hipotenusa será 5!
+
+> Qual a soma dos ângulos internos de um triângulo? | Geometria básica: triângulos
+- Independente do tipo de triângulo, a soma dos seus três ângulos internos será sempre exatamente 180 graus.
+
+> Quanto é 207 dividido por 3? | 207/3 | Qual o resultado de 207 dividido por 3?
+- O resultado de 207 dividido por 3 é exatamente 69.
+
+> Quanto é 565 dividido por 5? | 565/5
+- 565 dividido por 5 é igual a 113.
+
+> Quanto é 12 dividido por 2? | 12/2
+- O resultado é 6.
+
+> Quanto é 42 vezes 4? | 42*4 | 42 multiplicado por 4
+- 42 vezes 4 é igual a 168.
+
+> Quanto é 62675 vezes 2? | 62675*2
+- 62675 multiplicado por 2 é igual a 125350.
+
+> Quanto é 2342 vezes 3? | 2342*3
+- O resultado dessa conta é 7.026.
+
+> Quanto é 243 dividido por 3? | 243/3
+- 243 dividido por 3 é igual a 81.
+
+> Quanto é 0 dividido por 0? | 0/0 | Qual o resultado de zero dividido por zero?
+- Na matemática, a divisão de zero por zero é considerada uma "indeterminação". Em computação, isso geralmente gera um erro de sistema, pois não existe um número definido para esse resultado.
+
+> Quanto é 9999 mais 1? | 9999+1
+- 9999 mais 1 é igual a 10.000.
+
+> Quanto é 0 vezes 0? | 0*0
+- Zero vezes zero é igual a 0.
+
+> Quanto é 1 vezes 0? | 1*0 | Qualquer número vezes zero | 2*0 | Quanto é 2 vezes 0? | Quanto é 1 * 0?
+- Qualquer número multiplicado por zero é sempre igual a 0.
+
+> Qualquer número multiplicado por 0 é igual a 0, correto? | Por que todo número vezes 0 é 0? | Propriedade do zero na multiplicação | x * 0
+- Sim, está correto! \nNa matemática, isso é chamado de 'Propriedade do Elemento Nulo'. \nBasicamente, multiplicar significa somar um número a ele mesmo várias vezes. Se você soma um número 'zero vezes', o resultado não pode ser nada além de 0. \nExemplo: 5 * 0 significa 'zero vezes o número cinco', resultando em zero.
+
+> O que é o elemento neutro da multiplicação? | Qual número não altera o resultado na multiplicação?
+- O elemento neutro da multiplicação é o número 1. \nQualquer número multiplicado por 1 permanece igual a ele mesmo (ex: 7 * 1 = 7). \nJá o zero é o elemento nulo, pois ele 'anula' qualquer valor na multiplicação.
+
+> O que acontece se multiplicar um número negativo por zero? | -1 * 0 quanto é?
+- O resultado continua sendo 0. \nNão importa se o número é positivo, negativo, decimal ou uma fração; ao ser multiplicado por zero, ele será sempre anulado.
+
+> Por que não podemos dividir por zero? | Divisão por zero é possível?
+- A divisão por zero é impossível na matemática tradicional porque não existe um número que, multiplicado por zero, resulte em algo diferente de zero. \nSe tentarmos fazer 10 / 0, o sistema entra em um erro lógico conhecido como 'Indeterminação' ou 'Erro de Divisão'.
+
+> Quanto é 2 vezes 2? | 2*2 | 2x2
+- 2 vezes 2 é igual a 4.
+
+> O que significa Empatia? | Qual o significado de Empatia? | Definir Empatia
+- Empatia é a capacidade psicológica de sentir o que sentiria outra pessoa, caso estivesse na mesma situação vivenciada por ela. \nEm resumo: é saber se colocar no lugar do outro para compreender seus sentimentos e emoções.
+
+> O que significa Resiliência? | Significado de Resiliência | O que é ser uma pessoa resiliente?
+- Na psicologia, resiliência é a capacidade de uma pessoa lidar com problemas, vencer obstáculos e não ceder à pressão, independentemente da situação. \nNa física, é a propriedade de um corpo recuperar a sua forma original após sofrer um choque ou deformação.
+
+> O que significa Procrastinar? | O que é procrastinação? | Por que as pessoas procrastinam?
+- Procrastinar é o ato de adiar ou postergar algo que precisa ser feito para outro momento. \nÉ o famoso "deixar para amanhã" o que poderia ser resolvido hoje, geralmente trocando uma tarefa importante por algo mais prazeroso e menos urgente.
+
+> O que significa Epifania? | Significado de Epifania | Ter uma epifania
+- Uma epifania é um sentimento súbito de entendimento ou compreensão de algo. \nÉ aquele momento "Eureka!", onde uma ideia complexa se torna clara de repente na sua mente.
+
+> O que significa Inefável? | Definir inefável | Palavra inefável
+- Inefável é algo que não se pode nomear ou descrever com palavras, devido à sua natureza, força ou beleza. \nExemplo: "A sensação de paz que senti era inefável".
+
+> O que significa Altruísmo? | O que é uma pessoa altruísta?
+- Altruísmo é a ausência de egoísmo. É a atitude de quem busca o bem-estar do próximo, sem esperar nada em troca. \nÉ o oposto do narcisismo e do individualismo.
+
+> O que significa Inteligência Artificial? | Definir IA | O que é AI?
+- Inteligência Artificial (IA) é um campo da ciência da computação que se dedica a criar sistemas capazes de realizar tarefas que normalmente exigiriam inteligência humana. \nIsso inclui aprendizado, raciocínio, percepção visual e reconhecimento de fala.
+
+> Quais as características do Shar-Pei? | Raça Shar-Pei | Origem e rugas do Shar-Pei | Curiosidade cão chinês
+- O Shar-Pei é uma raça de origem chinesa conhecida por sua pele solta e rugas por todo o corpo. É um cão descrito como apaixonante e cativante.
+
+> Compare os recursos de três tipos de ferramentas de automação de marketing. | Diferenças entre ferramentas de marketing | Quais os tipos de automação de marketing? | Automação de E-mail vs Redes Sociais vs Web Analytics
+- O ecossistema de automação divide-se em três pilares: 1. E-mail (focado em nutrição de leads, segmentação de listas e acompanhamento de taxas de abertura); 2. Mídia Social (focado em escala de postagens, agendamento de conteúdo e gestão automatizada de interações); 3. Web Analytics (focado no rastreamento de conversões, métricas de tráfego e comportamento do usuário em tempo real). Cada ferramenta otimiza uma etapa diferente do funil de vendas.
+
+> Calcule a área de um círculo com raio 3. | Qual o cálculo da área de um círculo de raio 3? | Área do círculo r=3 | Resultado área raio 3
+- Para um raio (r) = 3: O cálculo utiliza a fórmula A = π * r². Com r² = 9, o resultado final da área é aproximadamente 28.2743 unidades de medida.
+
+> O que é um pipeline de DevOps? | Definição de Pipeline DevOps | Como funciona a automação DevOps? | Processo de entrega contínua DevOps
+- Um pipeline de DevOps é um fluxo de trabalho automatizado que integra as fases de desenvolvimento (Dev) e operações (Ops). Ele gerencia o ciclo de vida de um software através de automação de build, testes e deploy, reduzindo falhas humanas e acelerando a entrega de código em ambientes de produção. Os principais pilares são agilidade, integração contínua (CI) e entrega contínua (CD).
+
+> O que é a Lei do Gás Ideal? | Explicação Lei dos Gases Ideais | Fórmula PV=nRT | O que significa a equação de estado dos gases?
+- A Lei do Gás Ideal descreve o comportamento de gases hipotéticos através da equação de estado $$PV = nRT$$. Nela, P representa a Pressão, V o Volume, n o número de mols, R a constante universal dos gases ideais e T a Temperatura absoluta (Kelvin). A lei estabelece que o produto da pressão pelo volume é diretamente proporcional à temperatura e à quantidade de matéria.
+
+> Escreva uma pergunta de pesquisa sobre igualdade de gênero. | Pergunta de investigação: igualdade de gênero | Exemplo de questionário sobre atitudes sociais
+- Pergunta de Pesquisa: "Em uma escala de 1 a 10, quão confortável você se sente ao discutir ou debater questões relacionadas à igualdade de gênero em ambientes profissionais ou acadêmicos?"
+
+# end-of-file 
