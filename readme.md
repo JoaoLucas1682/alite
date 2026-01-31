@@ -57,7 +57,8 @@ Defina os gatilhos (perguntas) e as possíveis saídas (respostas):
 
 * Use `|` para separar variações da mesma pergunta.
 * Use `-` para listar diferentes respostas (o motor escolherá uma aleatoriamente).
-
+* Sempre quebre uma linha antes de inserir o -.
+* 
 ### C. Exportação
 
 Com o arquivo pronto, execute o exportador no terminal:
@@ -78,5 +79,6 @@ Este repositório usa a licença MIT.
 ```
 
 ## Notas
+
 
 [1]: Qualquer hardware que tenha capacidade de rodar Python, o motor e o dataset.
