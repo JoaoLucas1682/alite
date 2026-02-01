@@ -76,9 +76,10 @@ Isso gerará o seu arquivo `.PTC` pronto para ser usado pelo motor.
 
 Este repositório usa a licença MIT.
 
-```
+---
 
 ## Notas
 
 
 [1]: Qualquer hardware que tenha capacidade de rodar Python, o motor e o dataset.
+
